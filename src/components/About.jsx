@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaGlobe, FaBrain, FaGamepad, FaChartLine, FaLinkedin, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaGlobe, FaBrain, FaGamepad, FaMobile, FaChartLine, FaLinkedin, FaFacebook, FaInstagram } from 'react-icons/fa';
 import { personalInfo, expertise } from '../data/portfolioData';
 
 const About = () => {
@@ -13,6 +13,7 @@ const About = () => {
     FaGlobe: FaGlobe,
     FaBrain: FaBrain,
     FaGamepad: FaGamepad,
+    FaMobile: FaMobile,
     FaChartLine: FaChartLine,
   };
 

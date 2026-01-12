@@ -4,7 +4,7 @@ export const personalInfo = {
   birthdate: "12/04/2001",
   email: "bhattkunal04@gmail.com",
   phone: "+1 (312)285-7731",
-  address: "APT 9-1203, 501 E. 32nd St., Chicago, IL",
+  address: "Chicago, Illinois, United States",
   bio: "Highly motivated Computer Science enthusiast with a strong foundation in programming languages, algorithms, and software development. Proficient in designing, implementing, and troubleshooting complex systems. Skilled in collaborating with cross-functional teams to deliver innovative solutions. Strong problem-solving abilities and a commitment to staying up to date with emerging technologies. A dedicated learner and adaptable team player, seeking opportunities to contribute expertise to challenging projects in the field of Computer Science.",
   social: {
     linkedin: "https://www.linkedin.com/in/welcometokunalbhattsprofile/",
@@ -17,6 +17,7 @@ export const expertise = [
   { icon: "FaGlobe", title: "Web Development" },
   { icon: "FaBrain", title: "Machine Learning" },
   { icon: "FaGamepad", title: "Game Development" },
+  { icon: "FaMobile", title: "Mobile Development" },
   { icon: "FaChartLine", title: "Digital Marketing" }
 ];
 
