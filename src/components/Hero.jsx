@@ -79,7 +79,7 @@ const Hero = () => {
               Explore My Work
             </a>
             <a
-              href="/assets/resume.pdf"
+              href="/resume.pdf"
               download="Kunal_Bhatt_Resume.pdf"
               className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary font-semibold rounded-full border-2 border-primary hover:bg-primary hover:text-white transition-all duration-300 hover:shadow-2xl hover:scale-105"
             >

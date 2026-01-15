@@ -33,7 +33,7 @@ const Navbar = ({ scrolled }) => {
           whileHover={{ scale: 1.05 }}
         >
           <img
-            src="/portfolio/assets/imgs/avatar.png"
+            src="/assets/imgs/avatar.png"
             alt="Kunal Bhatt"
             className="w-12 h-12 rounded-full object-cover border-2 border-primary"
           />
