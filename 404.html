@@ -125,6 +125,18 @@
       line-height: 1.6;
     }
 
+    #countdown {
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #fff;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 0.25rem 0.5rem;
+      border-radius: 0.5rem;
+      display: inline-block;
+      min-width: 1.5rem;
+      text-align: center;
+    }
+
     .btn-container {
       display: flex;
       gap: 1rem;
@@ -207,14 +219,14 @@
     <p>
       Oops! The page you're looking for doesn't exist or has been moved to a new location.
       <br>
-      Click below to visit my portfolio homepage.
+      Redirecting to homepage in <span id="countdown">5</span> seconds...
     </p>
     <div class="btn-container">
       <a href="/" class="btn btn-primary">
         <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
         </svg>
-        Go to Homepage
+        Go Now
       </a>
       <button onclick="window.history.back()" class="btn btn-secondary">
         <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -243,6 +255,20 @@
 
       particlesContainer.appendChild(particle);
     }
+
+    // Auto-redirect countdown
+    let countdown = 5;
+    const countdownElement = document.getElementById('countdown');
+
+    const countdownInterval = setInterval(() => {
+      countdown--;
+      countdownElement.textContent = countdown;
+
+      if (countdown <= 0) {
+        clearInterval(countdownInterval);
+        window.location.href = '/';
+      }
+    }, 1000);
   </script>
 </body>
 </html>
