@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
-import { FaLinkedin, FaFacebook, FaInstagram, FaChevronDown, FaDownload } from 'react-icons/fa';
+import { FaLinkedin, FaEnvelope, FaPhone, FaChevronDown, FaDownload } from 'react-icons/fa';
 import { personalInfo } from '../data/portfolioData';
 
 const Hero = () => {
   const socialLinks = [
-    { icon: FaLinkedin, url: personalInfo.social.linkedin, label: 'LinkedIn' },
-    { icon: FaFacebook, url: personalInfo.social.facebook, label: 'Facebook' },
-    { icon: FaInstagram, url: personalInfo.social.instagram, label: 'Instagram' },
+    { icon: FaEnvelope, url: `mailto:${personalInfo.email}`, label: 'Email' },
+    { icon: FaPhone, url: `tel:${personalInfo.phone}`, label: 'Phone' },
+    { icon: FaLinkedin, url: personalInfo.social.linkedin, label: 'LinkedIn', target: '_blank' },
   ];
 
   return (
@@ -34,8 +34,7 @@ const Hero = () => {
               <motion.a
                 key={social.label}
                 href={social.url}
-                target="_blank"
-                rel="noopener noreferrer"
+                {...(social.target && { target: social.target, rel: "noopener noreferrer" })}
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.2 + index * 0.1 }}

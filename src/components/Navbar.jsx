@@ -42,7 +42,7 @@ const Navbar = ({ scrolled }) => {
               Kunal Bhatt
             </h3>
             <p className={`text-xs ${scrolled ? 'text-gray-600 dark:text-gray-400' : 'text-gray-200'}`}>
-              Computer Engineer
+              Software Developer | AI Engineer
             </p>
           </div>
         </motion.a>

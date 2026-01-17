@@ -38,6 +38,7 @@ export const skills = [
   { name: ".NET MAUI", image: "dotnetMaui.png", color: "#512BD4" },
   { name: "HTML5", image: "HTML5.png", color: "#E34F26" },
   { name: "CSS", image: "CSS.png", color: "#1572B6" },
+  { name: "Tailwind CSS", image: "TailwindCSS.png", color: "#06B6D4" },
   { name: "MySQL", image: "MySql.png", color: "#4479A1" },
   { name: "SQLite", image: "sqlite.png", color: "#003B57" },
   { name: "AWS", image: "Aws.png", color: "#FF9900" },
@@ -49,8 +50,8 @@ export const skills = [
   { name: "Android Dev", image: "AndroidDev.png", color: "#3DDC84" },
   { name: "iOS Dev", image: "IOSDev.png", color: "#000000" },
   { name: "Postman", image: "Postman.png", color: "#FF6C37" },
-  { name: "OpenAI", image: "OpenAI.png", color: "#10A37F" },
-  { name: "Claude", image: "ClaudeCode.png", color: "#191919" },
+  { name: "OpenAI API", image: "OpenAI.png", color: "#10A37F" },
+  { name: "Claude Code", image: "ClaudeCode.png", color: "#191919" },
   { name: "OpenRouter", image: "OpenRouter.png", color: "#6366F1" }
 ];
 
