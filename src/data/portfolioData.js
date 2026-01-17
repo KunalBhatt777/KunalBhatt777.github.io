@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: "Kunal Bhatt",
-  title: "Computer Engineer | Software Developer",
+  title: "Software Developer | AI Engineer",
   birthdate: "12/04/2001",
   email: "bhattkunal04@gmail.com",
   phone: "+1 (312)285-7731",
@@ -22,22 +22,36 @@ export const expertise = [
 ];
 
 export const skills = [
-  { name: "Python", icon: "FaPython", color: "#3776AB" },
-  { name: "Java", icon: "FaJava", color: "#007396" },
-  { name: "JavaScript", icon: "FaJsSquare", color: "#F7DF1E" },
-  { name: "React", icon: "FaReact", color: "#61DAFB" },
-  { name: "Angular", icon: "FaAngular", color: "#DD0031" },
-  { name: "Node.js", icon: "FaNodeJs", color: "#339933" },
-  { name: "HTML5", icon: "FaHtml5", color: "#E34F26" },
-  { name: "CSS3", icon: "FaCss3Alt", color: "#1572B6" },
-  { name: "Git", icon: "FaGitAlt", color: "#F05032" },
-  { name: "GitHub", icon: "FaGithub", color: "#181717" },
-  { name: "Docker", icon: "FaDocker", color: "#2496ED" },
-  { name: "AWS", icon: "FaAws", color: "#FF9900" },
-  { name: "Unity", icon: "FaUnity", color: "#000000" },
-  { name: "PHP", icon: "FaPhp", color: "#777BB4" },
-  { name: "Linux", icon: "FaLinux", color: "#FCC624" },
-  { name: "Bootstrap", icon: "FaBootstrap", color: "#7952B3" }
+  { name: "Python", image: "pyhton.png", color: "#3776AB" },
+  { name: "Java", image: "Java.png", color: "#007396" },
+  { name: "C++", image: "Cplusplus.png", color: "#00599C" },
+  { name: "C#", image: "Csharp.png", color: "#239120" },
+  { name: "C", image: "C.png", color: "#A8B9CC" },
+  { name: "JavaScript", image: "Javascript.png", color: "#F7DF1E" },
+  { name: "Dart", image: "Dart.png", color: "#0175C2" },
+  { name: "R", image: "R.png", color: "#276DC3" },
+  { name: "React", image: "React.png", color: "#61DAFB" },
+  { name: "Angular", image: "Angular.png", color: "#DD0031" },
+  { name: "Node.js", image: "NodeJs.png", color: "#339933" },
+  { name: "Flutter", image: "Flutter.png", color: "#02569B" },
+  { name: ".NET", image: "dotnet.png", color: "#512BD4" },
+  { name: ".NET MAUI", image: "dotnetMaui.png", color: "#512BD4" },
+  { name: "HTML5", image: "HTML5.png", color: "#E34F26" },
+  { name: "CSS", image: "CSS.png", color: "#1572B6" },
+  { name: "MySQL", image: "MySql.png", color: "#4479A1" },
+  { name: "SQLite", image: "sqlite.png", color: "#003B57" },
+  { name: "AWS", image: "Aws.png", color: "#FF9900" },
+  { name: "Azure", image: "Azure.png", color: "#0078D4" },
+  { name: "GCP", image: "GCP.png", color: "#4285F4" },
+  { name: "Azure AI Foundry", image: "AzureAIFoundry.png", color: "#0078D4" },
+  { name: "Firebase", image: "Firebase.png", color: "#FFCA28" },
+  { name: "Unity", image: "Unity.png", color: "#000000" },
+  { name: "Android Dev", image: "AndroidDev.png", color: "#3DDC84" },
+  { name: "iOS Dev", image: "IOSDev.png", color: "#000000" },
+  { name: "Postman", image: "Postman.png", color: "#FF6C37" },
+  { name: "OpenAI", image: "OpenAI.png", color: "#10A37F" },
+  { name: "Claude", image: "ClaudeCode.png", color: "#191919" },
+  { name: "OpenRouter", image: "OpenRouter.png", color: "#6366F1" }
 ];
 
 export const languages = [
@@ -97,7 +111,7 @@ export const projects = [
     description: "Assessed and predicted upcoming football match outcomes using data from the past 20 years. Conducted expansive research on algorithms and libraries for model development. Built a Multivariate Linear Regression model with 71.66% accuracy. Authored and published technical paper in Springer LNNS, vol 632, July 2022."
   },
   {
-    icon: "FaGamepad",
+    icon: "FaShip",
     title: "Battleships - Multiplayer Game with RESTful API Integration",
     description: "Implemented a Flutter application interfacing with a RESTful service to play Battleships against human and AI opponents. Integrated user registration, login, and session management functionalities using HTTP requests. Developed interactive game boards for ship placement and gameplay, ensuring responsive design across different screen sizes."
   },
