@@ -31,7 +31,7 @@ export const skills = [
   { name: "Dart", image: "Dart.png", color: "#0175C2" },
   { name: "R", image: "R.png", color: "#276DC3" },
   { name: "React", image: "React.png", color: "#61DAFB" },
-  { name: "Expo", image: "EXPO.png", color: "#000020" },
+  { name: "Expo", image: "Expo.png", color: "#000020" },
   { name: "Angular", image: "Angular.png", color: "#DD0031" },
   { name: "Node.js", image: "NodeJs.png", color: "#339933" },
   { name: "Flutter", image: "Flutter.png", color: "#02569B" },
