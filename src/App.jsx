@@ -5,6 +5,7 @@ import About from './components/About'
 import Resume from './components/Resume'
 import SkillsShowcase from './components/SkillsShowcase'
 import Projects from './components/Projects'
+import CertificationsPublications from './components/CertificationsPublications'
 import Organizations from './components/Organizations'
 import Footer from './components/Footer'
 import DarkModeToggle from './components/DarkModeToggle'
@@ -29,6 +30,7 @@ function App() {
       <Resume />
       <SkillsShowcase />
       <Projects />
+      <CertificationsPublications />
       <Organizations />
       <Footer />
       <DarkModeToggle />

@@ -31,6 +31,7 @@ export const skills = [
   { name: "Dart", image: "Dart.png", color: "#0175C2" },
   { name: "R", image: "R.png", color: "#276DC3" },
   { name: "React", image: "React.png", color: "#61DAFB" },
+  { name: "Expo", image: "EXPO.png", color: "#000020" },
   { name: "Angular", image: "Angular.png", color: "#DD0031" },
   { name: "Node.js", image: "NodeJs.png", color: "#339933" },
   { name: "Flutter", image: "Flutter.png", color: "#02569B" },
@@ -136,6 +137,18 @@ export const projects = [
     title: "PredKrypt - Cryptocurrency Price Prediction",
     description: "Developed cryptocurrency prediction model utilizing LSTM, demonstrating expertise in time series analysis and machine learning for financial forecasting. Proceeded through structured sequence of obtaining real-time cryptocurrency data, preparing data for training/testing, employing LSTM neural networks to forecast prices, and rendering prediction results visually. Trained model to forecast Bitcoin (BTC), Ethereum (ETH), and Ripple (XRP) over 30-day horizon."
   }
+];
+
+export const certificationsPublications = [
+  {
+    type: "publication",
+    title: "Winner Prediction of Football Match Using Machine Learning",
+    publisher: "Springer LNNS, vol 632",
+    date: "July 2022",
+    link: "https://www.springerprofessional.de/en/winner-prediction-of-football-match-using-machine-learning/24659280",
+    icon: "FaBook"
+  },
+  // Add more certifications and publications here
 ];
 
 export const organizations = [
