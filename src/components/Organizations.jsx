@@ -28,7 +28,7 @@ const Organizations = () => {
   };
 
   return (
-    <section id="organizations" className="section-padding bg-white dark:bg-gray-900 transition-colors duration-300">
+    <section id="organizations" className="section-padding bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
