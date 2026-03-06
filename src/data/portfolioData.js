@@ -141,6 +141,14 @@ export const projects = [
 
 export const certificationsPublications = [
   {
+    type: "certification",
+    title: "Microsoft Azure AI Fundamentals (AI-900)",
+    issuer: "Microsoft",
+    date: "2024",
+    link: "https://learn.microsoft.com/api/credentials/share/en-gb/KunalBhatt-5920/CCD24316E9EABE02?sharingId=7EB104CE343B345E",
+    icon: "FaCertificate"
+  },
+  {
     type: "publication",
     title: "Winner Prediction of Football Match Using Machine Learning",
     publisher: "Springer LNNS, vol 632",
@@ -148,7 +156,6 @@ export const certificationsPublications = [
     link: "https://www.springerprofessional.de/en/winner-prediction-of-football-match-using-machine-learning/24659280",
     icon: "FaBook"
   },
-  // Add more certifications and publications here
 ];
 
 export const organizations = [
