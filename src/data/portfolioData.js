@@ -144,8 +144,24 @@ export const certificationsPublications = [
     type: "certification",
     title: "Microsoft Azure AI Fundamentals (AI-900)",
     issuer: "Microsoft",
-    date: "2024",
+    date: "March 2026",
     link: "https://learn.microsoft.com/api/credentials/share/en-gb/KunalBhatt-5920/CCD24316E9EABE02?sharingId=7EB104CE343B345E",
+    icon: "FaCertificate"
+  },
+  {
+    type: "certification",
+    title: "Machine Learning & Deep Learning in Python & R",
+    issuer: "Udemy",
+    date: "May 2021",
+    link: "https://www.udemy.com/certificate/UC-213efaec-40fd-410a-b9b9-68878b89f73b/",
+    icon: "FaCertificate"
+  },
+  {
+    type: "certification",
+    title: "Introduction to Game Development",
+    issuer: "Coursera",
+    date: "June 2020",
+    link: "https://www.coursera.org/account/accomplishments/certificate/YLC6LYN2CYZB",
     icon: "FaCertificate"
   },
   {
