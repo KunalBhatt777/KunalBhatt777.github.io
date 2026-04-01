@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "bhattkunal04@gmail.com",
   phone: "+1 (312)285-7731",
   address: "Chicago, Illinois, United States",
-  bio: "Highly motivated Computer Science enthusiast with a strong foundation in programming languages, algorithms, and software development. Proficient in designing, implementing, and troubleshooting complex systems. Skilled in collaborating with cross-functional teams to deliver innovative solutions. Strong problem-solving abilities and a commitment to staying up to date with emerging technologies. A dedicated learner and adaptable team player, seeking opportunities to contribute expertise to challenging projects in the field of Computer Science.",
+  bio: "I'm Kunal Bhatt, a Software Engineer based in Chicago with an MS in Computer Science from Illinois Institute of Technology and 3+ years of work experience in the industry. I specialize in mobile and full-stack development, with hands-on experience building and shipping production applications across iOS and Android. I enjoy working across the stack — from architecting clean, maintainable code to crafting interfaces that feel polished and intuitive. I'm someone who takes ownership, moves fast, and cares about the details. Whether it's building something from scratch or modernizing something legacy, I like leaving things better than I found them.",
   social: {
     linkedin: "https://www.linkedin.com/in/welcometokunalbhattsprofile/",
     facebook: "https://www.facebook.com/profile.php?id=100007497108021",
