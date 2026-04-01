@@ -50,6 +50,9 @@ const About = () => {
           <motion.div variants={itemVariants} className="bg-white dark:bg-gray-700 p-8 rounded-2xl shadow-lg card-hover">
             <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Who am I?</h3>
             <div className="w-20 h-1 bg-primary mb-6"></div>
+            <h5 className="text-lg font-semibold mb-4 text-gray-800 dark:text-gray-200">
+              I am {personalInfo.name}, a Software Engineer
+            </h5>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">{personalInfo.bio}</p>
           </motion.div>
 
