@@ -14,10 +14,10 @@ export const personalInfo = {
 };
 
 export const expertise = [
+  { icon: "FaMobile", title: "Mobile Development" },
   { icon: "FaGlobe", title: "Web Development" },
   { icon: "FaBrain", title: "Machine Learning" },
   { icon: "FaGamepad", title: "Game Development" },
-  { icon: "FaMobile", title: "Mobile Development" },
   { icon: "FaChartLine", title: "Digital Marketing" }
 ];
 
@@ -69,13 +69,21 @@ export const workExperience = [
     period: "May 2024 - Present",
     company: "STG Logistics, Chicago, IL",
     position: "Software Engineer",
-    description: "Delivered a Jira reporting web app with Angular dashboard powered by REST APIs and JQL. Spearheaded .NET MAUI migration for iOS/Android, saving $40K and deploying 2 months ahead of schedule. Modernized mobile apps by migrating to React Native from Xamarin, reducing licensing spend by $60K/year. Enabled secure BYOD across mobile portfolio, eliminating company-issued device needs."
+    description: [
+      "Delivered a Jira reporting web app with Angular dashboard powered by REST APIs and JQL.",
+      "Spearheaded .NET MAUI migration for iOS/Android, saving $40K and deploying 2 months ahead of schedule.",
+      "Modernized mobile apps by migrating to React Native from Xamarin, reducing licensing spend by $60K/year.",
+      "Enabled secure BYOD across mobile portfolio, eliminating company-issued device needs."
+    ]
   },
   {
     period: "December 2021 - January 2023",
     company: "Maitri & Siya Group of Companies, Mumbai, India",
     position: "Web Developer",
-    description: "Launched investor-facing website using React and Material UI with modular components, responsive layout, and WCAG 2.1 AA accessibility standards. Drove 33% increase in new clients in Q2 2023. Leveraged digital marketing to expand outreach and increase social media engagement."
+    description: [
+      "Launched investor-facing website using React and Material UI with modular components, responsive layout, and WCAG 2.1 AA accessibility standards.Drove 33% increase in new clients in Q2 2023.",
+      "Leveraged digital marketing to expand outreach and increase social media engagement."
+    ]
   }
 ];
 
@@ -84,7 +92,7 @@ export const education = [
     period: "August 2023 - May 2025",
     degree: "Master of Computer Science (CGPA: 3.66/4.0)",
     institution: "Illinois Institute of Technology, Chicago, IL",
-    description: "Currently pursuing graduate degree with focus on Machine Learning, Design and Analysis of Algorithms, Computer Networks, and advanced software engineering topics."
+    description: "Graduated May 2025. Courses: Machine Learning, Design and Analysis of Algorithms, Computer Networks, Mobile Application Development, Software Engineering, Online Social Networks Analysis, Software Development with UML, Big Data Technologies, Data Preparation and Analysis, Advanced Database Organization."
   },
   {
     period: "August 2019 - July 2023",
