@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "bhattkunal04@gmail.com",
   phone: "+1 (312)285-7731",
   address: "Chicago, Illinois, United States",
-  bio: "Highly motivated Computer Science enthusiast with a strong foundation in programming languages, algorithms, and software development. Proficient in designing, implementing, and troubleshooting complex systems. Skilled in collaborating with cross-functional teams to deliver innovative solutions. Strong problem-solving abilities and a commitment to staying up to date with emerging technologies. A dedicated learner and adaptable team player, seeking opportunities to contribute expertise to challenging projects in the field of Computer Science.",
+  bio: "Based in the United States with an MS in Computer Science from Illinois Institute of Technology and 3+ years of work experience in the industry. I specialize in mobile and full-stack development, with hands-on experience building and shipping production applications across iOS and Android. I enjoy working across the stack — from architecting clean, maintainable code to crafting interfaces that feel polished and intuitive. I'm someone who takes ownership, moves fast, and cares about the details. Whether it's building something from scratch or modernizing something legacy, I like leaving things better than I found them.",
   social: {
     linkedin: "https://www.linkedin.com/in/welcometokunalbhattsprofile/",
     facebook: "https://www.facebook.com/profile.php?id=100007497108021",
@@ -14,10 +14,10 @@ export const personalInfo = {
 };
 
 export const expertise = [
+  { icon: "FaMobile", title: "Mobile Development" },
   { icon: "FaGlobe", title: "Web Development" },
   { icon: "FaBrain", title: "Machine Learning" },
   { icon: "FaGamepad", title: "Game Development" },
-  { icon: "FaMobile", title: "Mobile Development" },
   { icon: "FaChartLine", title: "Digital Marketing" }
 ];
 
@@ -69,13 +69,21 @@ export const workExperience = [
     period: "May 2024 - Present",
     company: "STG Logistics, Chicago, IL",
     position: "Software Engineer",
-    description: "Delivered a Jira reporting web app with Angular dashboard powered by REST APIs and JQL. Spearheaded .NET MAUI migration for iOS/Android, saving $40K and deploying 2 months ahead of schedule. Modernized mobile apps by migrating to React Native from Xamarin, reducing licensing spend by $60K/year. Enabled secure BYOD across mobile portfolio, eliminating company-issued device needs."
+    description: [
+      "Delivered a Jira reporting web app with Angular dashboard powered by REST APIs and JQL.",
+      "Spearheaded .NET MAUI migration for iOS/Android, saving $40K and deploying 2 months ahead of schedule.",
+      "Modernized mobile apps by migrating to React Native from Xamarin, reducing licensing spend by $60K/year.",
+      "Enabled secure BYOD across mobile portfolio, eliminating company-issued device needs."
+    ]
   },
   {
     period: "December 2021 - January 2023",
     company: "Maitri & Siya Group of Companies, Mumbai, India",
     position: "Web Developer",
-    description: "Launched investor-facing website using React and Material UI with modular components, responsive layout, and WCAG 2.1 AA accessibility standards. Drove 33% increase in new clients in Q2 2023. Leveraged digital marketing to expand outreach and increase social media engagement."
+    description: [
+      "Launched investor-facing website using React and Material UI with modular components, responsive layout, and WCAG 2.1 AA accessibility standards.Drove 33% increase in new clients in Q2 2023.",
+      "Leveraged digital marketing to expand outreach and increase social media engagement."
+    ]
   }
 ];
 
@@ -84,7 +92,7 @@ export const education = [
     period: "August 2023 - May 2025",
     degree: "Master of Computer Science (CGPA: 3.66/4.0)",
     institution: "Illinois Institute of Technology, Chicago, IL",
-    description: "Currently pursuing graduate degree with focus on Machine Learning, Design and Analysis of Algorithms, Computer Networks, and advanced software engineering topics."
+    description: "Graduated May 2025. Courses: Machine Learning, Design and Analysis of Algorithms, Computer Networks, Mobile Application Development, Software Engineering, Online Social Networks Analysis, Software Development with UML, Big Data Technologies, Data Preparation and Analysis, Advanced Database Organization."
   },
   {
     period: "August 2019 - July 2023",
@@ -141,6 +149,30 @@ export const projects = [
 
 export const certificationsPublications = [
   {
+    type: "certification",
+    title: "Microsoft Azure AI Fundamentals (AI-900)",
+    issuer: "Microsoft",
+    date: "March 2026",
+    link: "https://learn.microsoft.com/api/credentials/share/en-gb/KunalBhatt-5920/CCD24316E9EABE02?sharingId=7EB104CE343B345E",
+    icon: "FaCertificate"
+  },
+  {
+    type: "certification",
+    title: "Machine Learning & Deep Learning in Python & R",
+    issuer: "Udemy",
+    date: "May 2021",
+    link: "https://www.udemy.com/certificate/UC-213efaec-40fd-410a-b9b9-68878b89f73b/",
+    icon: "FaCertificate"
+  },
+  {
+    type: "certification",
+    title: "Introduction to Game Development",
+    issuer: "Coursera",
+    date: "June 2020",
+    link: "https://www.coursera.org/account/accomplishments/certificate/YLC6LYN2CYZB",
+    icon: "FaCertificate"
+  },
+  {
     type: "publication",
     title: "Winner Prediction of Football Match Using Machine Learning",
     publisher: "Springer LNNS, vol 632",
@@ -148,7 +180,6 @@ export const certificationsPublications = [
     link: "https://www.springerprofessional.de/en/winner-prediction-of-football-match-using-machine-learning/24659280",
     icon: "FaBook"
   },
-  // Add more certifications and publications here
 ];
 
 export const organizations = [

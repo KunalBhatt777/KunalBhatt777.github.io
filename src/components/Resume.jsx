@@ -94,7 +94,11 @@ const Resume = () => {
                       </div>
                       <h4 className="text-lg font-bold text-gray-900 dark:text-white mb-1">{job.position}</h4>
                       <p className="text-primary dark:text-blue-400 font-semibold mb-3 text-sm">{job.company}</p>
-                      <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">{job.description}</p>
+                      <ul className="list-disc list-outside pl-4 text-gray-600 dark:text-gray-300 text-sm leading-relaxed space-y-1">
+                        {job.description.map((point, i) => (
+                          <li key={i}>{point}</li>
+                        ))}
+                      </ul>
                     </div>
                   </motion.div>
                 );
