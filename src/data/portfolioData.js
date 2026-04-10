@@ -116,6 +116,11 @@ export const education = [
 
 export const projects = [
   {
+    icon: "FaPlane",
+    title: "AeroFind – A Skyscanner-Inspired Flight Search App",
+    description: "Built a cross-platform React Native app for iOS & Android in TypeScript using Redux Toolkit, RTK Query, and React Navigation; implemented tab navigation, deep-linked search flows, and reusable design system components. Integrated Firebase Cloud Messaging (FCM) for push notification price alerts, SQLite for local data persistence, Firestore for cloud sync and Google Sign-In (OAuth 2.0) authentication. Supported in-app browser booking handoff, multi-city and multi-passenger search flows, and optimized render performance for low-bandwidth conditions."
+  },
+  {
     icon: "FaMedal",
     title: "Paul Octopus - Football Match Prediction System",
     description: "Assessed and predicted upcoming football match outcomes using data from the past 20 years. Conducted expansive research on algorithms and libraries for model development. Built a Multivariate Linear Regression model with 71.66% accuracy. Authored and published technical paper in Springer LNNS, vol 632, July 2022."

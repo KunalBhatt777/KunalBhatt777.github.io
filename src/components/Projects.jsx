@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaMedal, FaGamepad, FaTwitter, FaIdBadge, FaChartLine, FaShip } from 'react-icons/fa';
+import { FaMedal, FaGamepad, FaTwitter, FaIdBadge, FaChartLine, FaShip, FaPlane } from 'react-icons/fa';
 import { projects } from '../data/portfolioData';
 
 const Projects = () => {
@@ -16,6 +16,7 @@ const Projects = () => {
     FaIdBadge: FaIdBadge,
     FaChartLine: FaChartLine,
     FaShip: FaShip,
+    FaPlane: FaPlane,
   };
 
   const containerVariants = {
