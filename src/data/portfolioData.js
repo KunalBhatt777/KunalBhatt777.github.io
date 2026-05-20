@@ -15,10 +15,11 @@ export const personalInfo = {
 
 export const expertise = [
   { icon: "FaMobile", title: "Mobile Development" },
+  { icon: "FaRobot", title: "AI Engineering" },
+  { icon: "FaMagic", title: "Generative AI" },
   { icon: "FaGlobe", title: "Web Development" },
   { icon: "FaBrain", title: "Machine Learning" },
-  { icon: "FaGamepad", title: "Game Development" },
-  { icon: "FaChartLine", title: "Digital Marketing" }
+  { icon: "FaGamepad", title: "Game Development" }
 ];
 
 export const skills = [
@@ -116,38 +117,57 @@ export const education = [
 
 export const projects = [
   {
+    icon: "FaNewspaper",
+    title: "AI News Briefing Agent",
+    techStack: ["LangChain", "LangGraph", "OpenAI GPT-4", "Tavily Search", "Python"],
+    description: "Built an agentic news research pipeline using LangGraph where an LLM agent autonomously breaks down a user-provided topic into sub-queries, executes real-time web searches via the Tavily Search API, and synthesizes findings across multiple sources into a structured daily briefing. Integrated Tavily as a LangChain tool within a LangGraph stateful graph, enabling the agent to iteratively fetch, filter, and rank relevant articles before passing curated context to OpenAI GPT-4 for multi-source summarization with cited references. Designed modular LangGraph nodes for query planning, search execution, deduplication, and final report generation, with LangChain prompt templates ensuring consistent briefing structure across topics including finance, technology, and geopolitics."
+  },
+  {
+    icon: "FaRobot",
+    title: "AI Job Application Coach",
+    techStack: ["LangChain", "LangGraph", "Hugging Face", "AWS Bedrock", "Python"],
+    description: "Built an agentic job application assistant using LangGraph that takes a job description and resume as input, then autonomously runs a multi-step workflow: skill gap analysis, tailored bullet point generation, and cover letter drafting via AWS Bedrock. Developed custom LangChain tools for keyword extraction, ATS score estimation, and role-fit scoring using Hugging Face Transformers for semantic similarity and embedding-based skill matching, chained together using LangGraph's stateful graph execution to produce a structured application package in a single pipeline run. Applied Pydantic output parsers and few-shot prompt templates in LangChain to ensure consistent, role-specific resume language across different job categories and seniority levels."
+  },
+  {
     icon: "FaPlane",
     title: "AeroFind – A Skyscanner-Inspired Flight Search App",
+    techStack: ["React Native", "TypeScript", "Redux Toolkit", "Firebase", "SQLite"],
     description: "Built a cross-platform React Native app for iOS & Android in TypeScript using Redux Toolkit, RTK Query, and React Navigation; implemented tab navigation, deep-linked search flows, and reusable design system components. Integrated Firebase Cloud Messaging (FCM) for push notification price alerts, SQLite for local data persistence, Firestore for cloud sync and Google Sign-In (OAuth 2.0) authentication. Supported in-app browser booking handoff, multi-city and multi-passenger search flows, and optimized render performance for low-bandwidth conditions."
   },
   {
     icon: "FaMedal",
     title: "Paul Octopus - Football Match Prediction System",
+    techStack: ["Python", "Scikit-learn", "Pandas", "NumPy", "Linear Regression"],
     description: "Assessed and predicted upcoming football match outcomes using data from the past 20 years. Conducted expansive research on algorithms and libraries for model development. Built a Multivariate Linear Regression model with 71.66% accuracy. Authored and published technical paper in Springer LNNS, vol 632, July 2022."
   },
   {
     icon: "FaShip",
     title: "Battleships - Multiplayer Game with RESTful API Integration",
+    techStack: ["Flutter", "Dart", "REST API", "HTTP", "Firebase"],
     description: "Implemented a Flutter application interfacing with a RESTful service to play Battleships against human and AI opponents. Integrated user registration, login, and session management functionalities using HTTP requests. Developed interactive game boards for ship placement and gameplay, ensuring responsive design across different screen sizes."
   },
   {
     icon: "FaGamepad",
     title: "Momentum Madness - A Rolling Ball Game",
+    techStack: ["Unity", "C#", "Android", "3D Development", "Game Design"],
     description: "Designed and developed a 3D arcade game in Unity featuring two levels, with the second offering an infinite high-score challenge. Utilized C# scripts for ball control and incorporated Unity features like box colliders and trail renderers. Programmed chase-down enemies that dynamically spawn at various locations on the map. Deployed locally with WASD controls for Windows and floating joystick for Android."
   },
   {
     icon: "FaTwitter",
     title: "Classification of Tweets as Racist or Non-Racist",
-    description: "Developed a model using machine learning to classify tweets as racist or non-racist based on their sentiment by calculating their 'overall polarity score'. Employed K Nearest Neighbors, Support Vector Machines and Naïve-Bayes algorithms to train the classification model. Technologies used: Python, Machine Learning, NLTK, and Scikit-learn."
+    techStack: ["Python", "NLTK", "Scikit-learn", "SVM", "NLP"],
+    description: "Developed a model using machine learning to classify tweets as racist or non-racist based on their sentiment by calculating their 'overall polarity score'. Employed K Nearest Neighbors, Support Vector Machines and Naïve-Bayes algorithms to train the classification model."
   },
   {
     icon: "FaIdBadge",
     title: "Customer Segmentation to Help Apply Targeted Marketing",
+    techStack: ["Python", "K-Means", "Pandas", "Matplotlib", "Data Analysis"],
     description: "Created a model with Data Analysis techniques to segregate and create clusters of different types of customers based on their RFM (Recency, Frequency, and Monetary) factors. Calculated and mapped customers according to their behaviors with statistical Pre-Processing. Adopted K-means Algorithms to cluster customers and draw useful inferences for targeted marketing with data visualization."
   },
   {
     icon: "FaChartLine",
     title: "PredKrypt - Cryptocurrency Price Prediction",
+    techStack: ["Python", "LSTM", "TensorFlow", "Time Series", "Matplotlib"],
     description: "Developed cryptocurrency prediction model utilizing LSTM, demonstrating expertise in time series analysis and machine learning for financial forecasting. Proceeded through structured sequence of obtaining real-time cryptocurrency data, preparing data for training/testing, employing LSTM neural networks to forecast prices, and rendering prediction results visually. Trained model to forecast Bitcoin (BTC), Ethereum (ETH), and Ripple (XRP) over 30-day horizon."
   }
 ];

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaMedal, FaGamepad, FaTwitter, FaIdBadge, FaChartLine, FaShip, FaPlane } from 'react-icons/fa';
+import { FaMedal, FaGamepad, FaTwitter, FaIdBadge, FaChartLine, FaShip, FaPlane, FaRobot, FaNewspaper } from 'react-icons/fa';
 import { projects } from '../data/portfolioData';
 
 const Projects = () => {
@@ -17,6 +17,8 @@ const Projects = () => {
     FaChartLine: FaChartLine,
     FaShip: FaShip,
     FaPlane: FaPlane,
+    FaRobot: FaRobot,
+    FaNewspaper: FaNewspaper,
   };
 
   const containerVariants = {
@@ -50,7 +52,7 @@ const Projects = () => {
             My <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            A showcase of my technical projects spanning Machine Learning, Game Development, and Data Analysis
+            A collection of projects spanning AI engineering, mobile, web, and beyond.
           </p>
         </motion.div>
 
@@ -87,6 +89,11 @@ const Projects = () => {
                   <h5 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-primary dark:group-hover:text-blue-400 transition-colors">
                     {project.title}
                   </h5>
+                  {project.techStack && (
+                    <p className="text-xs text-gray-400 dark:text-gray-500 mb-3 tracking-wide">
+                      {project.techStack.join(' · ')}
+                    </p>
+                  )}
                   <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed line-clamp-6">
                     {project.description}
                   </p>
